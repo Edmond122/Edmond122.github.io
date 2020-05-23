@@ -1,0 +1,82 @@
+body{
+	background: #CE3E20;
+	font-family: 'American Typewriter', sans-serif;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+
+li:hover{
+	color:#333;
+	background-color: #B12D10;
+}
+
+ul{
+
+padding-left: 10px;
+position: fixed;
+
+}
+li{
+
+	display:block;
+ 	float:left;   
+	width:20%;
+	color:#F3F4F4;
+	font-size:25px;
+	background-color:#333;
+	color:#F3F4F4;
+	text-align:center;
+	padding:5px;
+	border:2px solid;
+}
+
+p{
+	color: white;
+	align-items: left;
+	text-align: center;
+	font-size :0.7em;
+	font: 'American Typewriter';
+}
+
+h1{
+	color: white;
+	font: American Typewriter, serif;
+}
+
+h3{
+
+color:black;
+}
+
+h4{
+	color: black;
+	margin:auto;
+	text-align: right;
+	align-items: right;
+		font-size: 0.5em;
+		font-style: italic
+
+}
+
+
+h5{
+	color: black;
+	font: American Typewriter, serif;
+	align-items: center;
+	text-align: center;
+	background-color: white;
+
+}
+
+
+
+
+.CodeQuotes{
+	float: left;
+	padding-top: 20px;
+	padding-left: 25px;
+	width: 95%;
+}

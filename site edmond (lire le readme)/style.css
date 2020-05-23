@@ -1,0 +1,147 @@
+body{
+font-family: 'American Typewriter', sans-serif;
+font-size :1em;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+.demo .large-header {
+   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+   font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
+}
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+ul{
+
+padding-left: 10px;
+
+}
+
+
+li{
+
+	display:block;
+	float: left;
+	width:20%;
+	color:#F3F4F4;
+	font-size:25px;
+	background-color:#333;
+	color:#F3F4F4;
+	text-align:center;
+	padding:5px;
+	border:2px solid;
+}
+
+a{
+	color:inherit;
+	text-decoration: none;
+}
+
+li:hover{
+	color:#333;
+	background-color: #F3F4F4;
+}
+
+p{
+
+color: #010f0f;
+text-align: center;
+	align-items: center;
+	font-size :1.2em;
+    margin: 1em;
+    text-align: justify;
+	background-color: #FFF;
+}
+
+
+nav{
+    display: flex;
+    background-color: #339966;
+    justify-content: space-around;
+    padding: 5px;
+
+
+
+
+
+}
+
+h1{
+	color: white;
+	font: Bookman, URW Bookman L, serif;
+	text-align: center;
+	align-items: center; 
+}
+
+h3{
+
+color: black;
+	font: American Typewriter, serif;
+	margin:auto;
+	text-align: center;
+	align-items: left;
+	font-size: 1.5em;
+}
+
+h4{
+	color: black;
+	margin:auto;
+	text-align: right;
+	align-items: right;
+		font-size: 0.5em;
+		font-style: italic
+
+}
+
+
+h5{
+	color: black;
+	font: American Typewriter, serif;
+	align-items: center;
+	text-align: center;
+	background-color: white;
+
+}
